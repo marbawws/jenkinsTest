@@ -4,7 +4,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'echo "sup cuz"'
+                bat 'echo "test"'
+		bat 'echo "test1"'
+		bat 'echo "test2"'
+bat 'echo "test3"'
             }
         }
     }
