@@ -4,10 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat 'echo "test"'
-		bat 'echo "test1"'
-		bat 'echo "test2"'
-bat 'echo "test3"'
+                bat 'call script.bat'
             }
         }
     }
